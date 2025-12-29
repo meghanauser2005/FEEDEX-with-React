@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Whisper&display=swap');
+.navbar{
+    border:3px solid #9649CB;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 200px;
+    height:100px;
+    background-color: #9649CB;
+    color:white;
+}
+.menu{
+    display:flex;
+    gap:40px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.menu{
+    display:flex;
+    gap:40px;
+}
+.msg{
+    border:1px solid black;
+    width:500px;
+    height:210px;
+    background-color: white;
+    position:absolute;
+    top:200px;
+    left:100px;
+    padding:30px;
+    font-size: 2rem;
+    opacity:0.8;
+}
+.banner{
+    width:99vw;
+    height:30vw;
+}
+.tracker{
+    border:1px solid black;
+    display:flex;
+    gap: 40px;
+    width:60%;
+    height:100px;
+    position:relative;
+    left:250px;
+    top:-50px;
+    background-color: white;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+}
+.track{
+    display:flex;
+    gap:10px;
+}
+.track input{
+    height:40px;
+    width:200px;
+}
+.track button{
+    background-color: orange;
+    height:40px;
+    width:80px;
+}
+.layer{
+    border:2px solid white;
+    height:120px;
+    width:600px;
+    position:relative;
+    top:40px;
+    left:450px;
+}
+.info{
+    border:2px solid white;
+    width:1000px;
+    height:600px;
+    position:relative;
+    top:200px;
+    left:200px;
+}
+.one{
+    border:2px solid white;
+    width:200px;
+    height:150px;
+    position:relative;
+    left:20px;
+    top:30px;
+}
+.two{
+    border:2px solid white;
+    width:200px;
+    height:160px;
+    position:absolute;
+    left:250px;
+    top:60px;
+}
+.three{
+    border:2px solid white;
+    width:200px;
+    height:160px;
+    position:absolute;
+    left:20px;
+    top:230px;
+}
+.four{
+    border:2px solid white;
+    width:200px;
+    height:160px;
+    position:absolute;
+    left:250px;
+    top:230px;
+}
+.five{
+    border:2px solid white;
+    width:350px;
+    height:40px;
+    position:absolute;
+    left:20px;
+    top:420px;
+}
+.photo{
+    position:absolute;
+    left:500px;
+    top:1px;
+}
+.fphoto{
+    height:450px;
+    width:480px;
+}
